@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css?family=Space+Mono:400,400i,700');
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+@import url('https://fonts.googleapis.com/css?family=Karla');
+
+
+*{
+	margin:0;
+	padding:0;
+}
+
+/* ALGUNAS DEFINICIONES GENÉRICAS */
+
+body{
+	font-family: 'karla', monospace;
+	background:rgba(255,200,5,10);
+	color:rgba(100,100,100,1);
+}
+
+h1, , h3,{
+	font-weight:700;
+	font-family:Josefin+Sans 
+}
+
+h1{
+	font-size:6rem;
+	letter-spacing:0.5em;
+	color: white;
+	text-align:center;
+}
+
+h2{
+	font-size:3rem;
+	letter-spacing:0.5em;
+	position: center;
+	color:rgba(255,200,5,10);
+	text-align:center;
+	font-family:Josefine+Sans;
+	font-weight: bold;
+}
+
+h3{
+	font-size:1.8rem;
+	letter-spacing:1em;
+	color:rgba(0,0,0,0.9);
+	text-align:center;
+	padding:1rem 0;
+}
+
+h4{
+	font-family: karla
+}
+a{
+	color:rgba(155,0,0,1);
+	text-decoration:none;
+}
+
+a:hover{
+	color:rgba(255,0,0,1);
+	text-decoration:underline;
+}
+
+/* COMENZAMOS CON LAS PARTES */
+
+#contenido{width:98%; margin:1%;}
+
+
+header{
+	width:98%;
+	top:36%;
+	position: absolute;
+	text-align:center;
+	z-index:9;
+	color:white;
+}
+
+video{
+	width:100%;
+	height:auto;
+	margin-top: 3%;
+	margin-bottom:3%;
+	border-radius: 4%;
+
+}
+
+#somos{
+	width:100%;
+	color: rgba(0,0,0,5); 
+	background:rgb(250,250,250);
+	margin-top: 3%;
+	margin-bottom:3%;
+	}
+
+.dupla{
+	width:96%;
+	padding:2.1%;
+	float:center;
+	background-color: black;
+	box-shadow:0 0 5px rgba(255,200,5,10)
+	border-style: all;
+	
+
+
+	}
+
+.primera{
+	min-height:300px;
+	text-align:left;
+	background-color: rgba(242,218,151);
+	background-image:url('media/rosi.jpg'); 
+	background-position:right;
+	background-repeat:no-repeat;
+	background-size:auto 116%;
+
+	
+}
+.primera h4{padding: 2% 1% 1% 1%; font-size: 1.5em; color:rgba(163,93,27);font-family: Josefin+Sans;letter-spacing: 0.3em;}
+
+.primera h5{padding: 1% 40% 2% 1%; font-family: karla:10em; letter-spacing:0.1em; color:black;}
+
+.primera p{padding: 2% 40% 2% 1%; font-size:1em; font-weight: bold; color:black;}
+
+.primera address{padding: 2% 40% 2% 1%; font-size:1em; font-family: karla; color:white;}
+
+.segunda{
+	min-height:300px;
+	text-align:right;
+	background-color: rgba(247,210,94);
+	background-image:url('media/persic.jpg');
+	background-position:left;
+	background-repeat:no-repeat;
+	background-size:auto 118%;
+}
+
+.segunda h4{padding: 2% 2% 1% 40%; font-size: 1.5em; color:rgba(163,93,27);font-family: Josefin+Sans;letter-spacing: 0.3em;}
+
+.segunda h5{padding: 1% 2% 2% 40%; font-family: karla:10em; letter-spacing:0.1em; color:black;}
+
+.segunda p{padding: 2% 2% 2% 40%; font-size:1em; font-weight: bold; color:black; }
+
+.segunda address{padding: 2% 2% 2% 40%; font-size:1em; font-family: karla; color:white;}
+
+#somos hr{
+	clear:both;
+	border:none;
+	}
+
+#portafolio{
+	width:100%;
+	padding-bottom:1%;
+	background-color:rgba(12,9,1); 
+	margin-top: 3%;
+	border-style: solid
+	box-shadow:0 0 20px rgba(255,200,5,10);
+	border-radius: 4%
+
+
+
+
+}
+
+.item {
+	width:20%;
+	margin:2.4%;
+	color: white;
+	background:black;
+	box-shadow:0 0 10px rgba(255,200,5,10);
+}
+
+.item:hover{
+	cursor:crosshair;
+}
+
+.item figure{
+	overflow:hidden;
+}
+
+.item figure img{
+	width:100%; 
+	height:auto; 
+	margin-bottom:-4px;
+	filter: colors(1);
+}
+
+.item:hover figure img{
+	transform:scale(2);
+	filter: grayscale(0);	
+	transition:all ease-out 1s;
+}
+
+.item h4{
+	font-size:1em;
+	letter-spacing:0.025em;
+	margin:5% 5% 3% 5%;
+}
+
+.item p{
+	font-size:0.875em;
+	letter-spacing:0.05em;
+	margin:2% 5% 6% 5%;
+}
+
+footer{
+	width:100%;
+	padding:3em 0 1em 0;
+	text-align:center;
+	color: black;
+	font-weight: bold;
+}
+
+footer p{
+	text-transform:uppercase;
+	letter-spacing:0.2em;
+	font-size:0.9em;
+	}
+
+/* AJUSTES PARA QUE SE VEA BIEN EN DISTINTOS DISPOSITIVOS */	
+
+@media screen and (orientation: portrait){
+	
+	.dupla{
+		width:96%;
+		padding:2%;
+		float:left;
+	}
+
+}
+
+@media screen and (max-width: 992px){
+	
+	header{top:24%;}
+
+}
+
+@media screen and (max-width: 768px){
+
+	header{top:12%;}
+	
+	.item{
+		width:48%;
+		margin:1%;
+		background:#000;
+		color:#FFF;
+	}
+
+}
+
+@media screen and (max-width: 576px){
+
+	header{top:2;}
+	
+	.item{
+		width:96%;
+		margin:2%;
+		background:#000;
+		color:#FFF;
+	}
+
+}
