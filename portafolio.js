@@ -1,10 +1,7 @@
 // PRIMERO CREAMOS UNA VARIABLE QUE CONTIENE TODOS LOS DATOS DE TUS TRABAJOS
 var trabajos = [
 {
-    figure: "media/amarillo2.jpg",
-    title: "AROI - Taller producto",
-    about: "Re-interpretación de un plato tailandés a un snack con packaging biodegradable; bolitas de snack. -Sofía Persico",
-}, {
+
     figure: "media/cunco.jpg",
     title: "BALLOON LATAM - Taller TIDE",
     about: "Creación de una guía de turismo para la agrupación Pro turismo de Cunco en la Araucanía; tres tipos de guía de ayuda para los turistas chilenos. -Sofía Persico",
