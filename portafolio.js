@@ -28,6 +28,14 @@ var trabajos = [
     figure: "media/lampara.jpg",
     title: "LUMINARIA EN MATERIAL DE EXPERIMENTACIÓN - EyM",
     about: "Construcción de una luminaria con material estudiado; jabón. -Rosita Spoerer",
+}, {
+    figure: "media/maroma.jpg",
+    title: "MAROMA - Taller producto",
+    about: "Construcción de un juego para niños a partir de polímeros reciclados. -Sofía Persico",
+}, {
+    figure: "media/auto.jpeg",
+    title: "TOYOTA TACOMA - Diseño por computación",
+    about: "Diseño tridimiensional de la camioneta Toyota Tacoma color rojo fuego. -Rosita Spoerer",
 }
 ]
 // LUEGO CREAMOS PARTES DEL SITIO CON CADA DATO CONTENIDO EN LA VARIABLE
